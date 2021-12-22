@@ -97,6 +97,7 @@ has different set of nodes and hence this results in a different set of outputs.
 
 Similar to above model explained in part - 2, I have implemented the model with L2 
 regularization.
+
 • Batch size = 1000 and Epochs = 32
 
 • Regularization parameter = 0.01 and Learning rate for SGD Optimizer = 0.01
