@@ -99,8 +99,11 @@ regularization.
 
 • We have implemented a logistic regression model developed with gradient descent 
 yielded an accuracy of 80.51%.
+
 • Splitting dataset into 60% training and 20% Validation dataset, helped in tuning the 
 hyper parameters which improved the accuracy of the model.
+
 • Implemented Neural networks with L1, L2 and Dropout regularization methods
+
 • Neural network with L2 regularization method yielded better results than the Dropout
 as we have a smaller network.
