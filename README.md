@@ -69,12 +69,15 @@ Accuracy achieved = **80.51 %**
 **Part - 2: Implementing Neural Networks**
 
 • First we load the libraries Sequential and Dense from Keras.
+
 • Now, we start building the artificial neural network which is a sequential model of 3 
 layers.
+
 1. The first layer will have 12 neurons and uses the ReLu activation function.
 2. The Second layer will have 15 neurons and used ReLu activation function.
 3. Last layer which is the Output layer has only 1 neuron which uses Sigmoid 
 function.
+
 • Next, I have used a Regularization technique in the model to reduce model 
 overfitting.
   o I have used L1 Regularization for first layer and L2 Regularization for second 
@@ -84,8 +87,10 @@ overfitting.
 Regularization method : Dropout**
 
 • Dropout is one of the regularization techniques, which is the most used one.
+
 • In this method, it randomly selects some nodes and removes them, so each iteration 
 has different set of nodes and hence this results in a different set of outputs.
+
 • Dropout method produces best results when applies on larger datasets.
 
 **Regularization method : L2**
@@ -93,6 +98,7 @@ has different set of nodes and hence this results in a different set of outputs.
 Similar to above model explained in part - 2, I have implemented the model with L2 
 regularization.
 • Batch size = 1000 and Epochs = 32
+
 • Regularization parameter = 0.01 and Learning rate for SGD Optimizer = 0.01
 
 **Conclusion:**
